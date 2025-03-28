@@ -34,7 +34,7 @@ const ListItem = ({ todo }) => {
           onClick={() => handleRemove(todo.id)}
           className="btn btn-sm btn-danger rounded-0"
         >
-          Delete Todo
+          Delete
         </button>
       </span>
     </li>
