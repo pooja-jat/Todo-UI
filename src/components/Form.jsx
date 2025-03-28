@@ -34,9 +34,7 @@ const Form = () => {
         onChange={(e) => setText(e.target.value)}
         required
       />
-      <button className="btn btn-success my-2 w-100 rounded-0">
-        Save Todo
-      </button>
+      <button className="btn btn-success my-2 w-100 rounded-0">Save</button>
     </form>
   );
 };
