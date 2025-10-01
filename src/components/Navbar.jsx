@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar bg-dark">
-      <div className="container-fluid">
-        <span className="navbar-brand mb-0 h1 text-light text-center">Todo-App</span>
-      </div>
+    <nav className="navbar bg-dark d-flex justify-content-center ">
+      <h1 className="navbar-brand mb-0 text-light ">
+        Todo-App
+      </h1>
     </nav>
   );
 };
